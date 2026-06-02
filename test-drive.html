@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест-драйв | FutureDrive X</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+
+  <div class="logo">
+    FutureDrive X
+  </div>
+
+  <ul class="menu">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="tecnologies.html">Технологии</a></li>
+    <li><a href="test-drive.html">Тест-драйв</a></li>
+  </ul>
+
+  <button id="themeBtn">
+    🌙
+  </button>
+
+</nav>
+
+<section class="form-section">
+
+  <div class="test-info">
+
+    <h1>
+      Почувствуйте будущее уже сегодня
+    </h1>
+
+    <p>
+      Запишитесь на бесплатный тест-драйв FutureDrive X
+      и оцените технологии нового поколения.
+    </p>
+
+    <div class="benefits">
+
+      <div class="benefit">
+        ⚡ До 800 км без подзарядки
+      </div>
+
+      <div class="benefit">
+        🚀 Разгон до 100 км/ч за 3.5 сек
+      </div>
+
+      <div class="benefit">
+        🤖 Интеллектуальный автопилот
+      </div>
+
+      <div class="benefit">
+        🔋 Быстрая зарядка за 15 минут
+      </div>
+
+    </div>
+
+  </div>
+
+  <form id="driveForm">
+
+    <h2>Оставить заявку</h2>
+
+    <input
+            type="text"
+            id="name"
+            placeholder="Ваше имя">
+
+    <input
+            type="email"
+            id="email"
+            placeholder="Email">
+
+    <input
+            type="tel"
+            id="phone"
+            placeholder="Телефон">
+
+    <select id="city">
+
+      <option value="">
+        Выберите город
+      </option>
+
+      <option>Москва</option>
+      <option>Санкт-Петербург</option>
+      <option>Казань</option>
+      <option>Новосибирск</option>
+
+    </select>
+
+    <button type="submit">
+      Записаться
+    </button>
+
+  </form>
+
+</section>
+
+<div id="popup">
+
+  <div class="popup-content">
+
+    <h2>Спасибо!</h2>
+
+    <p>
+      Ваша заявка успешно отправлена.
+      Наш менеджер свяжется с вами.
+    </p>
+
+    <button id="closePopup">
+      Закрыть
+    </button>
+
+  </div>
+
+</div>
+
+<script src="js/test-drive.js"></script>
+
+</body>
+</html>
